@@ -110,3 +110,4 @@ simpleData = [(df_jan_pday10,df_jan_pday11,df_feb_pday10,df_feb_pday11,df_mar_pd
 schema = ["January top 5 days","avg(Tip_percentage)","February top 5 days","avg(Tip_percentage)","March top 5 days","avg(Tip_percentage)","April top 5 days","avg(Tip_percentage)","May top 5 days","avg(Tip_percentage)","June top 5 days","avg(Tip_percentage)"]
 df = spark.createDataFrame(data=simpleData, schema = schema)
 df.show()
+σδσ
